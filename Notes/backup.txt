@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/meals_deals.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style type="text/css" >
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="topbody">
+        <div id="top">
+            <pre class="inline"><h2 class="inline"><span class="inline">Meat-Free Deals </span> | <span class="lighter inline"> Restaurants In Malaysia</span></h2></pre> <a href="#" class="fa fa-twitter inline"></a>
+            <p>Browse delicious meat-free, vegetarian deals from top restaurants and cafes! Just click on "Get Free Coupon" to obtain instant discounts and dine at the restaurants.<br/> No upfront payment, booking or printing is needed. If you share it on social media, you'll even DOUBLE your discount!</p>
+            <p>Download our <a href="">mobile app</a> now to easily get coupons and start dining in a few seconds. Effortlessly save lives, health, environment and money now!</p>
+            <form action=""><input type="text" placeholder="Search Shop or Deal Name"><select name="options" id="option">
+                <option value="">All Categories</option>
+                <option value="pasta">Pasta</option>
+                <option value="burger">Burger</option>
+                <option value="breakfast">Breakfast</option>
+                <option value="salad">Salad</option>
+                <option value="bakery">Bakery</option>
+                <option value="hightea">Tea & Dessert</option>
+                <option value="local">Local Delights</option>
+                <option value="japanesekorean">Jap & Korean</option>
+                <option value="chinesevegetarian">Chinese</option>
+                <option value="indian">Indian</option>
+                <option value="soup">Soup</option>
+                <option value="cute">Cute</option>
+                
+            </select>
+        <select name="" id="city">
+                <option value="0">All Locations</option>
+                <option value="">Klang Valley</option>
+                <option value="60">&bull;&nbsp; Kuala Lumpur</option>
+                <option value="42">&bull;&nbsp; Petaling Jaya</option>
+                <option value="20">&bull;&nbsp; Ampang</option>
+                <option value="21">&bull;&nbsp; Ara Damansara</option>
+                <option value="22">&bull;&nbsp; Bangsar</option>
+                <option value="23">&bull;&nbsp; Bangsar South</option>
+                <option value="24">&bull;&nbsp; Bukit Bintang</option>
+                <option value="26">&bull;&nbsp; Bukit Damansara</option>
+                <option value="27">&bull;&nbsp; Cheras</option>
+                <option value="29">&bull;&nbsp; Damansara Heights</option>
+                <option value="30">&bull;&nbsp; Damansara Perdana</option>
+                <option value="31">&bull;&nbsp; Damansara Utama</option>
+                <option value="62">&bull;&nbsp; Ipoh</option>
+                <option value="33">&bull;&nbsp; Kelana Jaya</option>
+                <option value="34">&bull;&nbsp; Kepong</option>
+                <option value="35">&bull;&nbsp; Klang</option>
+                <option value="37">&bull;&nbsp; Kota Damansara</option>
+                <option value="39">&bull;&nbsp; Mont Kiara</option>
+                <option value="40">&bull;&nbsp; Mutiara Damansara</option>
+                <option value="41">&bull;&nbsp; Old Klang Road</option>
+                <option value="44">&bull;&nbsp; Puchong</option>
+                <option value="45">&bull;&nbsp; Pudu</option>
+                <option value="46">&bull;&nbsp; Putrajaya</option>
+                <option value="48">&bull;&nbsp; Sepang</option>
+                <option value="50">&bull;&nbsp; Seri Kembangan</option>
+                <option value="51">&bull;&nbsp; Setapak</option>
+                <option value="52">&bull;&nbsp; Shah Alam</option>
+                <option value="53">&bull;&nbsp; Sri Hartamas</option>
+                <option value="54">&bull;&nbsp; Sri Petaling</option>
+                <option value="55">&bull;&nbsp; Subang</option>
+                <option value="56">&bull;&nbsp; Taman Desa</option>
+                <option value="58">&bull;&nbsp; Taman Tun</option>
+            </select><button id="search">Search Deals</button><button id="browse">Browse Restaurants</button></form>
+        </div>
+    </div>
+    <div id="mainbody">
+      
+        <div id="imgbox">
+            <img src="https://www.kindmeal.my/images/campaigns/digirewards/digi-banner-1100x280.jpg" alt="">
+        </div>
+        <div id="buttons">
+
+        </div>
+        <div id="posts" class="flexbox">
+            <div class="flex">
+                <div id="imgs" style="background-image: url('../Ganga/IMG/565-4023-l.jpg');">
+                    <div class="top-left"><h2 class="circle" style="color:rgb(70, 69, 69); margin-top:5px; text-align: center; font-size: 22px;">-30%</h2></div>
+                    <h2><span class="background">Buon Appetito at table9</span></h2>
+                </div>
+                <div class="padded" style="margin-bottom:2px;">
+                    <span class="inline"><p style="font-size: 18px; font-weight: 600; color: rgb(151, 151, 151);" class="inline">Table9 Cafe & Kitchen</p></span><pre class="inline"> - </pre><span class="lighter inline" style="font-size: 14px;">Kuala Lumpur, Wilayah Persekutuan</span>
+                </div>
+               <p class="padded" style="margin: 3px 3px 7px 3px;">Indulge in a creative fare of Italian cuisine and Korean-inspired drinks in the cozy atmosphere of Table9. </p>
+               <button class="inline post-buttons">Get FREE Coupon</button> <div class="stars-outer"><div class="stars-inner"></div></div><p class="inline" style="margin-left: 2%; font-size: 12px;">(15)</p>
+               <div class=" bordertop" style="margin-bottom: 0px;display: flex; flex-wrap: nowrap; padding: 0% 2%;margin-top: 10px;height: 55px;" >
+                    <div style="flex-direction: row;flex-grow: 1;width: 0%; padding-top: 10px;" class="borderright">
+                        <span class="selected icons popup" onmouseover="myFunction()" onmouseout="mouseOut()"><img  class="scale" src="https://www.kindmeal.my/images/icon_egg.png" alt=""><span class="popuptext" id="myPopup">Contains egg</span></span><span class="selected icons popup" onmouseover="myFunction1()" onmouseout="mouseOut1()"><img class="scale" src="https://www.kindmeal.my/images/icon_milk.png" alt=""><span class="popuptext" id="myPopup1">Contains Dairy products<br/>(i.e milk,cheese)</span></span><span class="selected icons popup" onmouseover="myFunction2()" onmouseout="mouseOut2()"><img class="scale" src="https://www.kindmeal.my/images/icon_alcohol.png" alt=""><span class="popuptext" id="myPopup2">Contains Alcohol<br/>(i.e beer,wine,liqour)</span></span>
+                    </div>
+                    <div style="flex-direction: row;flex-grow: 1; text-align:center; " class="borderright">
+                        <p style="margin: 3px 1px 1px 1px;">kindMEal Discount</p>
+                        <h2 style="color: red;  margin:1px">30% off</h2>
+                    </div>
+                    <div style="flex-direction: row;flex-grow: 1; text-align:center;  width: 0%;">
+                        <p style="margin: 1px;">Expires in</p>
+                        <h2 style="color: rgb(119, 119, 119);  margin:1px">12 Days</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+
+            </div>
+            <div class="flex">
+
+            </div>
+            <div class="flex">
+
+            </div>
+        </div>
+    </div>
+    <script src="JS/meals.js"></script>
+</body>
+</html>
