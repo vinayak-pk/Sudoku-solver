@@ -1,0 +1,22 @@
+.inputbox{
+    width:10px;
+    padding:4%;
+    border: 1px solid lightgray;
+}
+
+.sodukobody{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: auto;
+    margin-right: 5%;
+    padding:2%;
+    border: 1px solid lightgray;
+    background-color:white;
+}
+
+.textarea{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20% 15% 10% 5% ;
+}
